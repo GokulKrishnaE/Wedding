@@ -10,59 +10,64 @@
     <div class="page-wrapper">
         <section class="hero-wrapper position-relative">
             <div class="hero-video">
-                <video autoplay controls loop>
+                <video autoplay controls loop class="d-none d-lg-block">
                     <source src="./assets/videos/hero-video.mp4" type="video/mp4" />
+                  </video>
+                <video autoplay controls loop class="d-lg-none">
+                    <source src="./assets/videos/hero-video-mob.mp4" type="video/mp4" />
                   </video>
                 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Mjjw19B7rMk?si=yzOnQXWHPwmkK-y0&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
             </div>
+            <div class="content">
+                <!-- header -->
+                <header data-include="header">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container">
+                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="hamburger-bar bar1"></span>
+                            <span class="hamburger-bar bar2"></span>
+                            <span class="hamburger-bar bar3"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Wedding</a>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto me-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#bride-groom-details">Groom&Bride</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Love Story</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#messages">Greetings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">People</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#place-and-time">When&Where</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#gallery">Gallery</a>
+                            </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </nav>
+                </header>
+                <!-- header end -->
 
-            <!-- header -->
-            <header data-include="header">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container">
-                      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="hamburger-bar bar1"></span>
-                        <span class="hamburger-bar bar2"></span>
-                        <span class="hamburger-bar bar3"></span>
-                      </button>
-                      <a class="navbar-brand" href="#">Wedding</a>
-                      <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto me-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#bride-groom-details">Groom&Bride</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Love Story</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#messages">Greetings</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">People</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#place-and-time">When&Where</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#gallery">Gallery</a>
-                          </li>
-                        </ul>
-                      </div>
+                <div class="hero-content">
+                    <div>
+                        <h1>John Doe</h1>
+                        <p>weds</p>
+                        <h1>Maria John</h1>
                     </div>
-                  </nav>
-            </header>
-            <!-- header end -->
-
-            <div class="hero-content">
-                <div>
-                    <h1>John Doe</h1>
-                    <p>weds</p>
-                    <h1>Maria John</h1>
                 </div>
             </div>
+            
         </section>
         <section id="wedding-details" class="wedding-detail-section">
             <div class="container">
